@@ -1,0 +1,17 @@
+#htmlContent {
+    background-color: #F5F9FD;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/map.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#htmlContent #details{
+  width:100%;
+  height:auto;
+  position:absolute;
+  bottom:80px;
+  left:0;
+  right:0;
+}

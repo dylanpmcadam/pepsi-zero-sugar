@@ -1,0 +1,37 @@
+#htmlContent {
+    background-color: #F5F9FD;
+    height: 100%;
+    width: 100%;
+}
+#htmlContent .terms-buttons{
+  margin:45px 0;
+}
+#htmlContent .terms-buttons .button{
+  max-width: 200px;
+  margin:15px auto;
+  position: relative;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+  border-radius: 100px;
+  background: #1EAEDB;
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+}
+#htmlContent .gratafy-logo {
+  max-width: 200px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 5vw;
+  left: 0;
+  right: 0;
+}
