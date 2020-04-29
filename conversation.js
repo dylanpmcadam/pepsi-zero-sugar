@@ -116,7 +116,7 @@ const conversation = {
             <span href="" class="button">Platform Terms</span>
             <span href="" class="button">Privacy Policy</span>
           </div>
-          <img src="http://d3goqxivbd7qku.cloudfront.net/3e/3ee9a25f-42a0-4522-91fc-321913f48e61" class="gratafy-logo">`,
+          <img src="https://d3goqxivbd7qku.cloudfront.net/3e/3ee9a25f-42a0-4522-91fc-321913f48e61" class="gratafy-logo">`,
           target:"null"
         },
         "receipt-ask":{
