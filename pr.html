@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Gratafy Prototype - Pepsi</title>
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<script type="text/javascript">
+		// This automatically sets the right viewport scale on mobile devices
+		(function() {
+	 		var scale = 1 / window.devicePixelRatio
+	 		var viewport = "width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no"
+	 		var iOS = /iPad|iPhone|iPod/.test(navigator.platform)
+	 		if (iOS) { viewport += ", viewport-fit=cover, shrink-to-fit=no"}
+	 		document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
+		})()
+		</script>
+
+		<link rel="apple-touch-icon" href="http://prototype.gratafy.com/global/Icon-120.png?dl=0">
+		<link rel="apple-touch-icon" href="http://prototype.gratafy.com/global/Icon-76.png?dl=0" sizes="76x76">
+		<link rel="apple-touch-icon" href="http://prototype.gratafy.com/global/Icon-120.png?dl=0" sizes="120x120">
+		<link rel="apple-touch-icon" href="http://prototype.gratafy.com/global/Icon-152.png?dl=0" sizes="152x152">
+		<link rel="apple-touch-icon" href="http://prototype.gratafy.com/global/Icon-180.png?dl=0" sizes="180x180">
+
+		<link rel="stylesheet" type="text/css" media="screen" href="http://prototype.gratafy.com/global/css/flickity.css?v=1">
+		<link rel="stylesheet" type="text/css" media="screen" href="http://prototype.gratafy.com/global/css/animate.css?v=1">
+		<link rel="stylesheet" type="text/css" media="screen" href="http://prototype.gratafy.com/global/css/style_v1.3.css?v=5">
+
+		<script src="http://prototype.gratafy.com/global/js/jquery.min.js"></script>
+		<script src="http://prototype.gratafy.com/global/js/flickity.pkgd.min.js"></script>
+
+</head>
+<body>
+  <div id="loader" class='loader-ring'>
+    <div class='loader-ring-light-green'></div>
+    <div class='loader-ring-light-blue'></div>
+    <div class='loader-ring-light-orange'></div>
+    <div class='loader-ring-track'></div>
+  </div>
+<script src="conversation.js?v=1"></script>
+<script src="http://prototype.gratafy.com/global/js/brain_v1.3.js?v=1"></script>
+</body>
+</html>

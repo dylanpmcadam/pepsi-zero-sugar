@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs -->
+  <meta HTTP-EQUIV="Content-type" charset="utf-8">
+  <title>Pepsi Zero Sugar - Conversational Commerce</title>
+  <meta name="description" content="Pepsi Zero Sugar - Conversational Commerce">
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="apple-touch-icon" href="http://prototype.gratafy.com/global/Icon-120.png?dl=0">
+  <link rel="apple-touch-icon" href="http://prototype.gratafy.com/global/Icon-76.png?dl=0" sizes="76x76">
+  <link rel="apple-touch-icon" href="http://prototype.gratafy.com/global/Icon-120.png?dl=0" sizes="120x120">
+  <link rel="apple-touch-icon" href="http://prototype.gratafy.com/global/Icon-152.png?dl=0" sizes="152x152">
+  <link rel="apple-touch-icon" href="http://prototype.gratafy.com/global/Icon-180.png?dl=0" sizes="180x180">
+
+  <!-- STYLES -->
+  <link href='http://prototype.gratafy.com/global/css/landing-page.css' rel='stylesheet' type='text/css'>
+  <link href='http://prototype.gratafy.com/global/css/landing-page-skeleton.css' rel='stylesheet' type='text/css'>
+
+  <!-- FONT FACES -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Standalone web - keep links from opening mobile safari -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript">
+    if (window.navigator.standalone) {
+        $(document).on('click', 'a', function(event) {
+            var a = $(this).attr('href');
+            event.preventDefault();
+            document.location.href = a;
+        });
+    }
+    $(document).ready(function() {
+      if (window.navigator.standalone) {
+        $('.alert').addClass('hide');
+        $('.content').removeClass('hide');
+      }
+    });
+  </script>
+
+</head>
+<body>
+  <header>
+    <div class="gratafy-logo">
+      <img src="https://d3goqxivbd7qku.cloudfront.net/ac/ac61f520-6ae0-44c6-b34e-1a8d7a61b773">
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h3>Conversational Commerce</h3>
+        <h1>Pepsi Zero Sugar</h1>
+      </div>
+    </div>
+    <div class="row content hide">
+      <div class="twelve columns card demo">
+        <h2>Messenger Prototype</h2>
+        <p>This bot offers consumers the ability to claim a rebate for a Pepsi Zero Sugar.</p>
+        <a href="pr.html" class="button">View Demo</a>
+      </div>
+      <div class="twelve columns fine-print">
+        <h3>CHANGE LOG</h3>
+        <p>April 27th, 2020: Prototype Created</p>
+      </div>
+    </div>
+    <div class="row alert">
+      <div class="twelve columns card">
+        <h2>Add this page to your home screen!</h2>
+        <p>Click the <b>action button</b> below, located at the bottom center of your browser bar. It looks like this: </p>
+        <img src="https://d3goqxivbd7qku.cloudfront.net/5e/5e23617c-b297-471d-98da-9a0d87bae904?v=2" class="inline-image">
+        <p>Then swipe over to tap <b>"Add to Home Screen"</b> in the action menu.</p>
+        <img src="https://d3goqxivbd7qku.cloudfront.net/d0/d054989a-fb14-4c5a-afb4-ee01a062f3c9?v=1" class="inline-image">
+        <p>Finally, enter a name and then click <b>"Add"</b> in the top right corner. Once that's complete, you can begin using the bot demo.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="content">
+      <div class="row">
+        <div class="eight columns">
+          <div class="links">
+            <p>The contents of this website and any prototypes herein are private and confidential.</p>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="powered-by-gratafy">
+            <img src="https://d3goqxivbd7qku.cloudfront.net/02/027b6be3-f71b-4ddd-a971-bb830dbeb948">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
